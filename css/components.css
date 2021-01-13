@@ -1,0 +1,50 @@
+.subtitle {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: var(--color-black);
+}
+.row {
+    display: flex;
+}
+.reviews .row{
+    justify-content: space-around;
+}
+.col-4 {
+    width: 38%;
+    margin: 0 12px;
+}
+.col-4:first-child {
+    margin-left: 0;
+}
+.col-4:last-child {
+    margin-right: 0;
+}
+.right {
+    max-width: 384px;
+}
+.left{
+    padding: 80px 0;
+}
+.col-6 {
+    width: 54%;
+}
+.col-5 {
+    width: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .col-4 , .col-6 , .col-5 {
+        width: 100%;
+    }
+    .col-4:first-child , .col-4:last-child {
+        margin: 0;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .left {
+        padding: 50px 0;
+    }
+}
