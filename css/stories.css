@@ -66,21 +66,39 @@
     position: absolute;
     top: 20%;
     left: 38%;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-duration: 20000s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
 }
 .stories__detail-2 {
     position: absolute;
     left: 2%;
     bottom: 35%;
+    animation-name: lil-thing;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
 }
 .stories__detail-3 {
     position: absolute;
     bottom: 10%;
     right: 36%;
+    animation-name: lil-thing;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
 }
 
 @media screen and (max-width: 576px) {
     .stories {
         padding: 100px 0;
+    }
+    .stories__header {
+        text-align: center;
     }
     .stories__title {
         font-size: 28px;

@@ -5,7 +5,9 @@
 @import "./components.css";
 @import "./variables.css";
 @import "./base.css";
+@import "./animation.css";
 
+@import "./destinations.css";
 @import "./download.css";
 @import "./reviews.css";
 @import "./stories.css";

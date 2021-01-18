@@ -23,17 +23,32 @@
     position: absolute;
     left: 3%;
     top: 49%;
+    animation-name: lil-thing;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
 }
 .reviews__detail-2 {
     position: absolute;
     right: 7%;
     top: 14%;
+    animation-name: lil-thing;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
 }
 .reviews__detail-3 {
     position: absolute;
     bottom: 0;
     right: 35.50%;
     z-index: 1;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-duration: 20000s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
 }
 .reviews__name {
     font-family: 'Inter', sans-serif;

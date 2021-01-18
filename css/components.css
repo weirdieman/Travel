@@ -38,9 +38,6 @@
     .col-4 , .col-6 , .col-5 {
         width: 100%;
     }
-    .col-4:first-child , .col-4:last-child {
-        margin: 0;
-    }
     .row {
         flex-wrap: wrap;
     }
