@@ -10,7 +10,69 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./images/Logo.svg" alt="Logo">
+        </div>
+        <nav class="nav">
+            <ul class="nav__links">
+                <li class="nav__icon"><a href="" class="nav__link">Home</a></li>
+                <li class="nav__icon"><a href="" class="nav__link">Destinations</a></li>
+                <li class="nav__icon"><a href="" class="nav__link">About</a></li>
+                <li class="nav__icon"><a href="" class="nav__link">Partner</a></li>
+                <li class="nav__btn"><button class="header__btn-1">Login</button></li>
+                <li class="nav__btn"><button class="header__btn-2">Register</button></li>
+            </ul>
+        </nav>
+        <div class="burger__menu">
+            <span></span>
+        </div>
+    </header>
     <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__block">
+                    <h1 class="hero__title">Explore and <br>
+                        Travel</h1>
+                    <h3 class="hero__subtitle">Holiday finder</h3>
+                    <span class="hero__border"></span>
+                    <div class="select__block-1">
+                    <select name="type" class="select">
+                        <option value="none" hidden="">Location</option>
+                        <option value="China">China</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                    <select name="type" class="select"><option value="Activity">Activity</option></select>
+                    </div>
+                    <div class="select__block-2">
+                    <select name="type" class="select"><option value="Grade">Grade</option></select>
+                    <select name="type" class="select"><option value="Date">Date</option></select>
+                    </div>
+                    <button class="hero__btn">Explore</button>
+                </div>
+                    <img class="hero__img" src="./images/hero-ph.png" alt="">
+            </div>
+            <img class="hero__detail-1" src="./images/bubble.svg" alt="">
+            <img class="hero__detail-2" src="./images/left-clever.svg" alt="">
+            <img class="hero__detail-3" src="./images/bubble.svg" alt="">
+        </section>
+        <section class="info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <img class="info__img" src="./images/info-ph.png" alt="">
+                    </div>
+                    <div class="col-5 info__block">
+                        <img class="info__detail-1" src="./images/clever.svg" alt="">
+                        <h2 class="info__title">A new way to explore the world </h2>
+                        <p class="info__text">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect 
+                            trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                        <button class="info__btn">Learn more</button>
+                        <img class="info__detail-2" src="./images/bubble.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="destinations">
         <div class="container">
             <div class="destinations__header">

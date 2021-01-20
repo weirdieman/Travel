@@ -7,6 +7,9 @@
 @import "./base.css";
 @import "./animation.css";
 
+@import "./header.css";
+@import "./hero.css";
+@import "./info.css";
 @import "./destinations.css";
 @import "./download.css";
 @import "./reviews.css";
