@@ -1,0 +1,105 @@
+.destinations {
+    position: relative;
+    padding: 131px 0 40px;
+}
+.destinations__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+.destinations__link {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: var(--color-orange);
+    align-items: center;
+    margin-right: 11px;
+}
+.destinations__address {
+  position: relative;  
+}
+.destinations__address img {
+    border-radius: 10px;
+}
+.destinations__location {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    padding: 11px 22px 5px 0;
+    background-color: var(--color-white);
+    border-top-right-radius: 10px;
+}
+.featured__destinations ,
+.country {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+}
+.featured__destinations {
+    color: var(--color-black);
+}
+.country {
+    color: var(--color-gray);
+    cursor: pointer;
+}
+.country:hover {
+    color: var(--color-green);
+}
+.destinations__detail-1 {
+    position: absolute;
+    top: 80px;
+    right: 300px;
+    animation-name: lil-thing;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.destinations__detail-2 {
+    position: absolute;
+    left: 20px;
+    bottom: 150px;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-duration: 20000s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+}
+.destinations__detail-3 {
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+    animation-name: lil-thing;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+@media screen and (max-width: 576px) {
+    .destinations__header {
+        align-items: center;
+    }
+    .destinations__title {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .destinations__link {
+        font-size: 15px;
+        margin: 5px 0 0 10px;
+    }
+    .destinations__address {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .col-4:first-child {
+        margin: 0 0 30px 10px;
+    }
+    .destinations__location {
+        left: 25px;
+        width: 150px;
+    }
+}

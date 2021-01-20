@@ -1,0 +1,22 @@
+@keyframes lil-thing{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(3600000deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}

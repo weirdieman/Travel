@@ -1,0 +1,132 @@
+.hero {
+    padding-bottom: 140px;
+    position: relative;
+}
+.hero__block {
+    position: relative;
+}
+.hero__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--color-black);
+}
+.hero__subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--color-black);
+    margin: 30px 0 71px;
+}
+.hero__border {
+    position: absolute;
+    width: 32px;
+    height: 3px;
+    background-color: var(--color-black);
+    top: 227px;
+    left: 1px;
+}
+.select__block-1 {
+    margin: 48px 0 35px;
+}
+.select__block-2 {
+    margin-bottom: 51px;
+}
+.select {
+    margin-right: 30px;
+    outline: none;
+    width: 220px;
+    height: 52px;
+    border: 2px solid var(--color-gray);
+    border-radius: 5px;
+    padding-left: 31px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--color-black);
+}
+.hero__btn {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 60px;
+    color: var(--color-white);
+    background-color: var(--color-orange);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 60px;
+    cursor: pointer;
+}
+.hero__btn:hover {
+    background-color: var(--color-green);
+}
+.hero__img {
+    position: absolute;
+    width: 667px;
+    height: 634px;
+    right: 10px;
+    top: 0;
+}
+.hero__detail-1 {
+    position: absolute;
+    left: 15px;
+    top: 250px;
+    animation-name: lil-thing;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.hero__detail-2 {
+    position: absolute;
+    top: 0;
+    left: 590px;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-duration: 20000s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+}
+.hero__detail-3 {
+    position: absolute;
+    bottom: 20px;
+    left: 620px;
+    animation-name: lil-thing;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+@media screen and (max-width: 576px) {
+    .hero {
+        padding: 0;
+    }
+    .hero__img {
+        z-index: -1;
+        width: 55%;
+        height: 25%;
+        top: 47px;
+    }
+    .hero__border {
+        top: 305px;
+    }
+    .hero__detail-1 {
+        top: -30px;
+    }
+    .select__block-1 {
+        margin-bottom: 10px;
+    }
+    .select {
+        margin-bottom: 10px;
+    }
+    .hero__btn {
+        line-height: 47px;
+        padding: 4px 35px;
+    }
+}
