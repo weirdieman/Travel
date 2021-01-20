@@ -5,7 +5,7 @@
 .destinations__header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 56px;
+    padding-bottom: 56px;
 }
 .destinations__link {
     font-family: 'Inter', sans-serif;
